@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 18, 2026 at 05:18 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Host: sql101.infinityfree.com
+-- Generation Time: May 18, 2026 at 09:18 PM
+-- Server version: 11.4.10-MariaDB
+-- PHP Version: 7.2.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `garu_portfolio`
+-- Database: `if0_41953950_garu_portfolio`
 --
 
 -- --------------------------------------------------------
@@ -528,7 +529,115 @@ INSERT INTO `analytics` (`id`, `page_url`, `ip_address`, `visit_date`, `created_
 (467, '/about', '49.145.208.222', '2026-05-18', '2026-05-18 14:59:14'),
 (468, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 14:59:26'),
 (469, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 14:59:27'),
-(470, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:12:39');
+(470, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:12:39'),
+(471, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 15:23:16'),
+(472, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:23:18'),
+(473, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 15:23:26'),
+(474, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 15:23:28'),
+(475, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 15:23:30'),
+(476, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:25:57'),
+(477, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 15:25:59'),
+(478, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:27:33'),
+(479, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:30:51'),
+(480, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:33:54'),
+(481, '/projects?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 15:37:38'),
+(482, '/project/4?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 15:37:40'),
+(483, '/project/4?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 15:39:08'),
+(484, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 15:39:14'),
+(485, '/project/4?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 15:40:22'),
+(486, '/project/4?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 15:41:57'),
+(487, '/project/4?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 15:45:03'),
+(488, '/project/4?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 15:46:48'),
+(489, '/', '49.145.208.222', '2026-05-18', '2026-05-18 15:47:47'),
+(490, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:47:48'),
+(491, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 15:47:51'),
+(492, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 15:47:54'),
+(493, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:48:10'),
+(494, '/', '49.145.208.222', '2026-05-18', '2026-05-18 15:48:11'),
+(495, '/', '49.145.208.222', '2026-05-18', '2026-05-18 15:48:12'),
+(496, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 15:48:16'),
+(497, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 15:48:18'),
+(498, '/project/4?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeghxZ039sgA1rfcZRFbkSg1bhftzH3xn_65cOLdO65sRaNUcUxr_E8nVtUDE_aem_QZIazrjZOrBOhJQTK0_8kg', '31.13.115.6', '2026-05-18', '2026-05-18 15:48:34'),
+(499, '/project/4', '57.141.10.35', '2026-05-18', '2026-05-18 15:48:36'),
+(500, '/project/4', '57.141.10.15', '2026-05-18', '2026-05-18 15:48:36'),
+(501, '/project/4', '57.141.10.20', '2026-05-18', '2026-05-18 15:48:37'),
+(502, '/project/4?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeghxZ039sgA1rfcZRFbkSg1bhftzH3xn_65cOLdO65sRaNUcUxr_E8nVtUDE_aem_QZIazrjZOrBOhJQTK0_8kg', '69.171.230.54', '2026-05-18', '2026-05-18 15:49:10'),
+(503, '/project/4?i=1', '120.28.219.66', '2026-05-18', '2026-05-18 16:05:09'),
+(504, '/?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 23:31:51'),
+(505, '/project/4?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 23:32:27'),
+(506, '/project/4?fbclid=IwY2xjawR4gNpleHRuA2FlbQIxMABicmlkETFRcnFvTVBHV3FWTWZkbHdXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn8dN5qnaHOf3Kgp_qcrRQlXvEQMaBGMdVmmzniVB1Hz7ohXLo1WkOWBr21Q_aem_eUgGOR2bN-LxiiTL44ZYsA&i=1', '49.145.208.222', '2026-05-18', '2026-05-18 23:32:27'),
+(507, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:32:37'),
+(508, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 23:32:38'),
+(509, '/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEepD3xlA1hBlbDYEOpsF5FdKCBbd9dGiyEWHBCyYX3-ZJpQZBd_KeuNmGxV70_aem_Rj1Z1_iw2n9S3CqfZys2bw', '173.252.87.44', '2026-05-18', '2026-05-18 23:32:38'),
+(510, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:32:39'),
+(511, '/', '57.141.10.20', '2026-05-18', '2026-05-18 23:32:40'),
+(512, '/', '57.141.10.21', '2026-05-18', '2026-05-18 23:32:40'),
+(513, '/', '173.252.87.30', '2026-05-18', '2026-05-18 23:32:40'),
+(514, '/', '69.171.236.2', '2026-05-18', '2026-05-18 23:32:41'),
+(515, '/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEepD3xlA1hBlbDYEOpsF5FdKCBbd9dGiyEWHBCyYX3-ZJpQZBd_KeuNmGxV70_aem_Rj1Z1_iw2n9S3CqfZys2bw', '57.141.10.33', '2026-05-18', '2026-05-18 23:33:13'),
+(516, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:33:29'),
+(517, '/?fbclid=IwY2xjawR4gaVleHRuA2FlbQIxMABicmlkETFRcnFvTVBHV3FWTWZkbHdXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjmT84lD_gRdwguDEThVsACRPgLcLWMTJJEMgyid7NnLn7pHAvsAsOFutdWt_aem_qc7GrX64uaW-7SbZCuAEPQ&i=1', '49.145.208.222', '2026-05-18', '2026-05-18 23:35:50'),
+(518, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:35:52'),
+(519, '/?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExUXJxb01QR1dxVk1mZGx3V3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR45k_OJQ_4EXcILgxE4VbAAkT4C3C1jEySRDIMonezZy5-6RwL7ALDhbrXVrQ_aem_qc7GrX64uaW-7SbZCuAEPQ&i=1', '1.37.67.135', '2026-05-18', '2026-05-18 23:35:54'),
+(520, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:36:26'),
+(521, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 23:38:03'),
+(522, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 23:39:05'),
+(523, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 23:39:22'),
+(524, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:39:47'),
+(525, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:39:50'),
+(526, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 23:39:59'),
+(527, '/about', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:00'),
+(528, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:01'),
+(529, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:02'),
+(530, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:07'),
+(531, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:11'),
+(532, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:12'),
+(533, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:14'),
+(534, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:25'),
+(535, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:28'),
+(536, '/about', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:32'),
+(537, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:40:35'),
+(538, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 23:41:46'),
+(539, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:41:47'),
+(540, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 23:41:49'),
+(541, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 23:41:54'),
+(542, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:10'),
+(543, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:11'),
+(544, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:23'),
+(545, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:24'),
+(546, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:25'),
+(547, '/about', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:26'),
+(548, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:28'),
+(549, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:29'),
+(550, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:32'),
+(551, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 23:42:35'),
+(552, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:43:36'),
+(553, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 23:43:38'),
+(554, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 23:43:44'),
+(555, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:43:45'),
+(556, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:43:55'),
+(557, '/project/4', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:00'),
+(558, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:04'),
+(559, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:17'),
+(560, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:24'),
+(561, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:25'),
+(562, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:26'),
+(563, '/', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:27'),
+(564, '/about', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:43'),
+(565, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:44'),
+(566, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:46'),
+(567, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 23:44:49'),
+(568, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:45:00'),
+(569, '/contact?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 23:45:08'),
+(570, '/?i=1', '49.145.208.222', '2026-05-18', '2026-05-18 23:45:53'),
+(571, '/about', '49.145.208.222', '2026-05-18', '2026-05-18 23:46:04'),
+(572, '/skills', '49.145.208.222', '2026-05-18', '2026-05-18 23:46:05'),
+(573, '/projects', '49.145.208.222', '2026-05-18', '2026-05-18 23:46:07'),
+(574, '/experience', '49.145.208.222', '2026-05-18', '2026-05-18 23:46:08'),
+(575, '/reviews', '49.145.208.222', '2026-05-18', '2026-05-18 23:46:10'),
+(576, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 23:46:11'),
+(577, '/contact', '49.145.208.222', '2026-05-18', '2026-05-18 23:46:37'),
+(578, '/', '49.145.208.222', '2026-05-18', '2026-05-19 01:08:38');
 
 -- --------------------------------------------------------
 
@@ -570,6 +679,13 @@ CREATE TABLE `messages` (
   `is_read` tinyint(1) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `messages`
+--
+
+INSERT INTO `messages` (`id`, `name`, `email`, `subject`, `message`, `created_at`, `is_read`) VALUES
+(1, 'Phoebe Jhanrex', 'jellypenajhanrex@gmail.com', 'PROJECT', 'PA BUILD BOSS', '2026-05-18 23:46:37', 0);
+
 -- --------------------------------------------------------
 
 --
@@ -588,6 +704,13 @@ CREATE TABLE `projects` (
   `additional_images` text DEFAULT NULL,
   `link` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `projects`
+--
+
+INSERT INTO `projects` (`id`, `title`, `description`, `icon_class`, `tags`, `client`, `project_date`, `main_image`, `additional_images`, `link`) VALUES
+(4, 'SIROK Dine & Chill UI/UX Prototype', 'Designed a modern UI/UX prototype for SIROK Dine & Chill using Figma. The prototype focuses on creating a cozy and elegant digital dining experience with a dark aesthetic, smooth mobile interface, and intuitive admin dashboard design. The project includes both customer-side mobile screens and an admin management interface.', NULL, 'Figma, UI/UX Design, Mobile Design, Dashboard Design, Prototyping, Wireframing', 'Personal Project', 'August 2025', 'proj_6a0b321deca0d.png', 'proj_add_6a0b3236b904d.png,proj_add_6a0b3236b9141.png,proj_add_6a0b3236b922a.png,proj_add_6a0b3236b92d7.png,proj_add_6a0b3236b9383.png,proj_add_6a0b3236b9431.png,proj_add_6a0b3236b94e7.png,proj_add_6a0b3236b95da.png,proj_add_6a0b3236b96e1.png,proj_add_6a0b3236b9794.png', 'https://www.figma.com/proto/ljmOyyFG4ck2urfLQ0KSOb/Sirok-Sample-Prototype?node-id=18-18&p=f&t=VLp3ytCwtNi3oqgL-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A18&show-proto-sidebar=1');
 
 -- --------------------------------------------------------
 
@@ -738,7 +861,7 @@ ALTER TABLE `admin_users`
 -- AUTO_INCREMENT for table `analytics`
 --
 ALTER TABLE `analytics`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=471;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=579;
 
 --
 -- AUTO_INCREMENT for table `experience`
@@ -750,13 +873,13 @@ ALTER TABLE `experience`
 -- AUTO_INCREMENT for table `messages`
 --
 ALTER TABLE `messages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `projects`
 --
 ALTER TABLE `projects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `ratings`
