@@ -56,17 +56,7 @@ $current_page = basename($_SERVER['PHP_SELF'], ".php");
                 
                 <div class="d-flex align-items-center gap-4">
                     <i class="fa-solid fa-moon mode-icon"></i>
-                    <?php
-                    $resume_dir = dirname(__DIR__) . '/assets/resume/';
-                    $resume_file = $base_url . '/assets/resume/Tangaro_CV.pdf'; // default fallback
-                    if (is_dir($resume_dir)) {
-                        $files = glob($resume_dir . '*.pdf');
-                        if (!empty($files)) {
-                            $resume_file = $base_url . '/assets/resume/' . basename($files[0]);
-                        }
-                    }
-                    ?>
-                    <a href="<?= htmlspecialchars($resume_file) ?>" target="_blank" class="btn-nav">Download CV</a>
+                    <a href="<?= $base_url ?>/resume" target="_blank" class="btn-nav">Download CV</a>
                 </div>
             </div>
         </div>

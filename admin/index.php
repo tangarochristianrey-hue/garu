@@ -270,17 +270,7 @@ if ($max_views == 0) $max_views = 1; // Prevent division by zero
                     </div>
                 </a>
                 
-                <?php
-                $resume_dir = dirname(__DIR__) . '/assets/resume/';
-                $resume_file = $base_url . '/assets/resume/Tangaro_CV.pdf'; // default fallback
-                if (is_dir($resume_dir)) {
-                    $files = glob($resume_dir . '*.pdf');
-                    if (!empty($files)) {
-                        $resume_file = $base_url . '/assets/resume/' . basename($files[0]);
-                    }
-                }
-                ?>
-                <a href="<?= htmlspecialchars($resume_file) ?>" target="_blank" class="d-block text-decoration-none p-3" style="background: #111; border: 1px solid #222; border-radius: 8px; transition: 0.2s;" onmouseover="this.style.borderColor='#fff'" onmouseout="this.style.borderColor='#222'">
+                <a href="<?= $base_url ?>/resume" target="_blank" class="d-block text-decoration-none p-3" style="background: #111; border: 1px solid #222; border-radius: 8px; transition: 0.2s;" onmouseover="this.style.borderColor='#fff'" onmouseout="this.style.borderColor='#222'">
                     <div class="d-flex align-items-center gap-3">
                         <div class="bg-dark p-2 rounded"><i class="fa-solid fa-file-pdf text-white"></i></div>
                         <div>
