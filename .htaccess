@@ -1,0 +1,25 @@
+RewriteEngine On
+
+# ─── LOCAL XAMPP (localhost) ───────────────────────────────────────────────────
+RewriteCond %{HTTP_HOST} ^localhost$ [OR]
+RewriteCond %{HTTP_HOST} ^127\.0\.0\.1$
+RewriteRule ^ - [E=BASE:/garu/]
+
+# ─── LIVE SERVER (garu.rf.gd) ──────────────────────────────────────────────────
+RewriteCond %{HTTP_HOST} !^localhost$
+RewriteCond %{HTTP_HOST} !^127\.0\.0\.1$
+RewriteRule ^ - [E=BASE:/]
+
+# Serve existing files/directories directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Clean URL: /project/1 → project-details.php?id=1
+RewriteRule ^project/([0-9]+)$ project-details.php?id=$1 [QSA,L]
+
+# Serve existing files/directories directly (repeat needed before next rule)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Clean URL: /about → about.php, /skills → skills.php, etc.
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L]
