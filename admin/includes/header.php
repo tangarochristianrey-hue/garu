@@ -118,6 +118,7 @@ $current_page = basename($_SERVER['PHP_SELF'], ".php");
         <a href="skills" class="nav-link <?= $current_page=='skills'?'active':'' ?>"><i class="fa-solid fa-code"></i> Skills</a>
         <a href="experience" class="nav-link <?= $current_page=='experience'?'active':'' ?>"><i class="fa-solid fa-briefcase"></i> Experience</a>
         <a href="projects" class="nav-link <?= $current_page=='projects'?'active':'' ?>"><i class="fa-solid fa-folder"></i> Projects</a>
+        <a href="certificates" class="nav-link <?= $current_page=='certificates'?'active':'' ?>"><i class="fa-solid fa-certificate"></i> Certificates</a>
         <a href="reviews" class="nav-link <?= $current_page=='reviews'?'active':'' ?>"><i class="fa-solid fa-star"></i> Reviews</a>
         <?php
         $unread_stmt = $pdo->query("SELECT COUNT(*) FROM messages WHERE is_read = 0");

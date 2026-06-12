@@ -103,6 +103,24 @@ try {
         (3, 'Dine & Chill POS', 'A conceptual point-of-sale interface designed in Figma and prototyped using web technologies.', 'fa-solid fa-utensils', 'UI/UX,Figma,Bootstrap', 'Sirok Dine & Chill', '2025', NULL, '#')
     ");
 
+    // 6. Certificates Table
+    $pdo->exec("
+        CREATE TABLE IF NOT EXISTS certificates (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            title VARCHAR(255) NOT NULL,
+            issued_by VARCHAR(255),
+            month VARCHAR(50),
+            year VARCHAR(50),
+            image VARCHAR(255) NOT NULL,
+            keywords VARCHAR(255),
+            description TEXT
+        )
+    ");
+    $pdo->exec("INSERT IGNORE INTO certificates (id, title, issued_by, month, year, image, keywords, description) VALUES 
+        (1, 'Certificate of Recognition', 'Davao del Norte State College', 'May', '2026', 'cert_recognition.png', 'Dean''s Lister, Academic Excellence', 'Awarded for exemplary academic performance.'),
+        (2, 'Civic Welfare Training Services (CWTS)', 'Davao del Norte State College', 'June', '2025', 'cert_cwts.png', 'CWTS, NSTP, Community Service', 'Certificate of Completion for the Civic Welfare Training Service component of NSTP.')
+    ");
+
     echo "SUCCESS: Database 'garu_portfolio' and all tables created with initial data!\n";
 
 } catch (PDOException $e) {

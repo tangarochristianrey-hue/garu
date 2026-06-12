@@ -50,6 +50,7 @@ $current_page = basename($_SERVER['PHP_SELF'], ".php");
                     <li class="nav-item"><a class="nav-link <?= $current_page == 'skills' ? 'active' : '' ?>" href="<?= $base_url ?>/skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link <?= $current_page == 'projects' ? 'active' : '' ?>" href="<?= $base_url ?>/projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link <?= $current_page == 'experience' ? 'active' : '' ?>" href="<?= $base_url ?>/experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link <?= $current_page == 'certificates' ? 'active' : '' ?>" href="<?= $base_url ?>/certificates">Certificates</a></li>
                     <li class="nav-item"><a class="nav-link <?= $current_page == 'reviews' ? 'active' : '' ?>" href="<?= $base_url ?>/reviews">Reviews</a></li>
                     <li class="nav-item"><a class="nav-link <?= $current_page == 'contact' ? 'active' : '' ?>" href="<?= $base_url ?>/contact">Contact</a></li>
                 </ul>
